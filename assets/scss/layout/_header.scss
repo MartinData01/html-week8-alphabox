@@ -1,0 +1,35 @@
+// 漢堡按鈕
+.navbar {
+  &-dropdown {
+    top: 76px;
+  }
+  .navbar-toggler {
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    .icon-custom {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 33px;
+      height: 22px;
+      .icon-line {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #ffffff;
+      }
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+// 手機板背景
+.navbar-bg{
+  @include gradient-y($primary, $primary-600);
+  @media (min-width: 992px) {
+    background-image: none;
+  }
+}
