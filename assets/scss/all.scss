@@ -1,10 +1,14 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
 @import './utils/custom_color';
-@import './utils/font';
 
 // mixin
 @import './mixins/bg_gradient';
+@import './mixins/screen';
+
+@import './utils/font';
+
+
 
 // layout
 @import './layout/header.scss';

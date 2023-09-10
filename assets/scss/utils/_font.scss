@@ -8,3 +8,67 @@
 .font-shrikhand{
     font-family: 'Shrikhand', cursive;
 }
+
+// letter-spacing 平板以上
+.letter-016{
+    @include pad{
+        letter-spacing: 1.6px;
+    }
+}
+.letter-16{
+    @include pad{
+        letter-spacing: 16px;
+    }
+}
+.letter-20{
+    @include pad{
+        letter-spacing: 20px;
+    }
+}
+.letter-32{
+    @include pad{
+        letter-spacing: 32px;
+    }
+}
+.letter-48{
+    @include pad{
+        letter-spacing: 48px;
+    }
+}
+.letter-64{
+    @include pad{
+        letter-spacing: 64px;
+    }
+}
+.letter-80{
+    @include pad{
+        letter-spacing: 80px;
+    }
+}
+.letter-96{
+    @include pad{
+        letter-spacing: 96px;
+    }
+}
+// 手機版
+.letter-sm-016{
+    letter-spacing: 1.6px;
+}
+.letter-sm-048{
+    letter-spacing: 4.8px;
+}
+.letter-sm-16{
+    letter-spacing: 16px;
+}
+.letter-sm-20{
+    letter-spacing: 20px;
+}
+.letter-sm-24{
+    letter-spacing: 24px;
+}
+.letter-sm-26{
+    letter-spacing: 26px;
+}
+.letter-sm-40{
+    letter-spacing: 40px;
+}
