@@ -11,7 +11,7 @@
 // 往中間的漸層
 @mixin radial-gradient(
   $start-color: $primary,
-  $end-color: $secondary,
+  $end-color: $black,
 ) {
   background-image: radial-gradient(50% 50% at 50% 50%, $start-color 0%, $end-color 100%);
 }

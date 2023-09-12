@@ -1,0 +1,16 @@
+// 往中間的漸層
+.bg-gradient-primary{
+    @include radial-gradient;
+}
+// LOGO大小
+.logo-size{
+    width: 196px;
+    height: 196px;
+}
+// link under-line
+.link-underline{
+    text-decoration: underline;
+    &:hover{
+        text-decoration: none;
+    }
+}
