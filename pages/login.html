@@ -9,21 +9,20 @@
   <body>
     <%- include('./layout/header'); -%>
     
-    <div class="bg-gradient-primary mt-15">
+    <div class="bg-gradient-primary nav-margin">
       <div class="container py-12 text-white">
         <div class="row">
-          <div class="col-md-2 d-flex justify-content-between">
-            <p class="display-3 fw-bolder">登</p>
-            <p class="display-3 fw-bolder">入</p>
+          <div class="col-lg-2 mt-15 d-flex">
+            <p class="display-3 fw-bolder letter-sm-40 letter-64 text-nowrap">登入</p>
           </div>
-          <div class="col-md-2"></div>
-          <div class="col-md-4">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-4">
             <img class="logo-size d-block mx-auto" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-ai/circle.png" alt="logo">
             <p class="display-5 text-center mt-7">ALPHABOX+</p>
-            <a href="#" class="mt-8 d-block border border-1 text-white text-center font-noto-sans rounded-pill"><img src="../images/apple.png" alt="apple-icon"> Continue with Apple</a>
-            <a href="#" class="mt-5 d-block border border-1 text-white text-center font-noto-sans rounded-pill"><img src="../images/google.png" alt="google-icon"> Continue with Google</a>
+            <a href="#" class="mt-8 d-block border border-1 text-white text-center font-noto-sans rounded-pill btn-hover"><img src="assets/images/apple.png" alt="apple-icon"> Continue with Apple</a>
+            <a href="#" class="mt-5 d-block border border-1 text-white text-center font-noto-sans rounded-pill btn-hover"><img src="assets/images/google.png" alt="google-icon"> Continue with Google</a>
             <p class="my-8 font-noto-sans text-center">or</p>
-            <form action="" method="get" class="font-noto-sans">
+            <form action="index.html" method="get" class="font-noto-sans">
               <input type="email" placeholder="EMAIL" class="form-control mb-5">
               <input type="password" placeholder="密碼" class="form-control mb-7">
               <button type="submit" class="btn btn-primary w-100 mb-2"><i class="material-symbols-outlined align-bottom me-1">point_scan</i> 立即登入</button>
@@ -33,32 +32,6 @@
         </div>
       </div>
   
-      <!-- Modal 註冊說明 -->
-      <div
-        class="modal fade"
-        id="exampleModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-scrollable">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p>ALPHABOX+ 註冊條例</p>
-              <p>感謝您選擇使用ALPHABOX+品牌的Felix 3D立體投影機器人！為了確保您在使用我們的產品和服務時能夠享受到愉快的體驗，請在註冊帳號前，仔細閱讀以下註冊帳號使用規範條例。</p>
-              <p>第1條：帳號註冊</p>
-              <p>註冊帳號時，請確保提供真實、準確、完整的個人資料，如發現虛假資料，我們有權隨時終止您的帳號。</p>
-              <p>用戶需設定一組安全的帳號密碼，並妥善保管。如因用戶原因導致帳號密碼遭盜用，我們將不承擔任何責任。</p>
-              <p>每位用戶僅限註冊一個帳號，禁止註冊多個帳號。如經查證有用戶註冊多個帳號的行為，我們有權對其帳號進行封禁處理。</p>
-              <p>第2條：帳號使用</p>
-
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
     
 

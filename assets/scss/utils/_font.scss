@@ -9,6 +9,43 @@
     font-family: 'Shrikhand', cursive;
 }
 
+// letter-spacing 手機版
+.letter-sm-016{
+    @include mobile {
+        letter-spacing: 1.6px;
+    }
+}
+.letter-sm-048{
+    @include mobile {
+        letter-spacing: 4.8px;
+    }
+}
+.letter-sm-16{
+    @include mobile {
+        letter-spacing: 16px;
+    }
+}
+.letter-sm-20{
+    @include mobile {
+        letter-spacing: 20px;
+    }
+}
+.letter-sm-24{
+    @include mobile {
+        letter-spacing: 24px;
+    }
+}
+.letter-sm-26{
+    @include mobile {
+        letter-spacing: 26px;
+    }
+}
+.letter-sm-40{
+    @include mobile {
+        letter-spacing: 40px;
+    }
+}
+
 // letter-spacing 平板以上
 .letter-016{
     @include pad{
@@ -49,26 +86,4 @@
     @include pad{
         letter-spacing: 96px;
     }
-}
-// 手機版
-.letter-sm-016{
-    letter-spacing: 1.6px;
-}
-.letter-sm-048{
-    letter-spacing: 4.8px;
-}
-.letter-sm-16{
-    letter-spacing: 16px;
-}
-.letter-sm-20{
-    letter-spacing: 20px;
-}
-.letter-sm-24{
-    letter-spacing: 24px;
-}
-.letter-sm-26{
-    letter-spacing: 26px;
-}
-.letter-sm-40{
-    letter-spacing: 40px;
 }
